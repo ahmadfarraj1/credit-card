@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Credit Card Payment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1> Credit Card Payment</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Type:</label>
+        <select id="type">
+          <option value="Withdraw">Withdraw </option>
+          <option value="deposit">Deposit</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Amount (£):</label>
+        <input type="number" id="amount">
+      </div>
+      <div class="field">
+        <label>Card Holder</label>
+        <input type="text" id="Cardholder">
+      </div> 
+
+      <div class="field">
+        <label>Card Number</label>
+        <input type="number" id="cardnumber">
+      </div>
+
+      <div class="field">
+        <label>Expiration Date</label>
+        <input type="date" id="expdate">
+      </div>
+        
+      <div class="field">
+        <label>Card CVV</label>
+        <input type="number" id="cardcvv">
+      </div>
+    
+      <button>Add</button>
+    </form>
+
+    
+  </footer>
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>
